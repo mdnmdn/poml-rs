@@ -1,8 +1,8 @@
-# POML Go SDK
+# POML Rust SDK
 
-[![Go CI](https://github.com/YOUR_USERNAME/YOUR_REPONAME/actions/workflows/go-ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPONAME/actions/workflows/go-ci.yml)
+[![Rust CI](https://github.com/YOUR_USERNAME/YOUR_REPONAME/actions/workflows/rust.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPONAME/actions/workflows/rust.yml)
 
-This project is a Go implementation of the POML (Prompt Orchestration Markup Language) template engine. It provides a comprehensive, idiomatic Go SDK for parsing and rendering `.poml` files, including support for the full POML template language specification.
+This project is a Rust implementation of the POML (Prompt Orchestration Markup Language) template engine. It provides a comprehensive, idiomatic Rust SDK for parsing and rendering `.poml` files, including support for the full POML template language specification.
 
 ## Features
 
@@ -14,8 +14,8 @@ This project is a Go implementation of the POML (Prompt Orchestration Markup Lan
     *   `<let>` tag for defining variables from values, JSON, or files.
     *   `<include>` tag for embedding other POML files.
     *   `<stylesheet>` tag for applying attributes to elements.
-*   **Idiomatic Go API**:
-    *   Simple, user-friendly functions like `RenderFromString` and `RenderFromFile`.
+*   **Idiomatic Rust API**:
+    *   Simple, user-friendly functions like `render_from_string` and `render_from_file`.
     *   A fluent `Builder` API for programmatically constructing POML documents.
 
 ## Getting Started
